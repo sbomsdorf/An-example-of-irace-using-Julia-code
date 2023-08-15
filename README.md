@@ -58,7 +58,7 @@ The same holds for real numbers (type in the `paramaters.txt` is `r` instead of 
       the parameters to be tuned `%candidate_parameters%`.
     - `%candidate_parameters%` must be defined in `parameters.txt` as described above.
   - the script expects two files created by your code: `%stdout%` and `%stderr%` (the file names are passed as input to your code).
-  - in `%stdout%`, the script looks for two values in the last line of the file (might also be a single line). The first value is expected to be the cost, the second one is expected to be the runtime.
+  - in `%stdout%`, the `target-runner.bat` looks for two values in the last line of the file (might also be a single line). The first value is expected to be the cost, the second one is expected to be the runtime. Note that irace expects two values because `maxTime` is set in `scenario.txt`. If you want to use `maxEperiments` (only one of both can be set), irace expects a single value. For this, you need to both adapt the output of your code as well as the `.bat`-script to read a single value instead of two.
 
 ## Run irace
 
