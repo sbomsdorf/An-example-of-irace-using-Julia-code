@@ -62,7 +62,7 @@ The same holds for real numbers (type in the `paramaters.txt` is `r` instead of 
 
 ## Run irace
 
-- navigate to the directory that contains the `target-runner.bat` as well as the configuration files and execute `irace` there.
+- navigate to the directory that contains the `target-runner.bat` as well as the configuration files, open a terminal / the command line and execute  the command `irace` there.
 - the output will be stored in the `execDir` defined in the `scenario.txt`
 - the output is both `stderr` and `stdout` files for each instance as well as the irace results in a file called `irace.Rdata`.
   - there are several ways to access this data, first and foremost using R
