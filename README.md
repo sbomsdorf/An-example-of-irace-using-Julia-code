@@ -24,7 +24,7 @@ Follow the instruction on [https://mlopez-ibanez.github.io/irace/#quick-start](h
 
 #### parameters.txt
 
-- A fixed set of parameters, must be defined as categorical. For example, if you want to test 100, 200, and 300 as values for a parameter, the configuration would be: `numIterations "--param " c (100,200, 300)`. Using this definition, irace adds `--param 100`, among the others, to the command line call. Note the empty space in the definition of the String `"--param "`.
+- A fixed set of parameters, must be defined as categorical. For example, if you want to test 100, 200, and 300 as values for a parameter, the configuration would be: `numIterations "--param " c (100,200,300)`. Using this definition, irace adds `--param 100`, among the others, to the command line call. Note the empty space in the definition of the String `"--param "`.
 - You can also define a continuous set of integer values to test a range of parameter values, for example, between 100 and 300:
 `numIterations "--numIterations " i (100,300)`.
 The same holds for real numbers (type in the `paramaters.txt` is `r` instead of `i`).
