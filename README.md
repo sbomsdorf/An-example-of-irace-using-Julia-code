@@ -34,7 +34,7 @@ The same holds for real numbers (type in the `paramaters.txt` is `r` instead of 
 #### scenario.txt
 
 - defines how irace is executed
-- the file is well commented when initialized by `irace --init` and self-explaining.
+- the file is well commented when initialized by `irace --init` and self-explanatory.
 - for an example, refer to the given `scenario.txt`
 
 #### target-runner.bat
