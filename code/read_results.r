@@ -1,7 +1,7 @@
 # show the working directory
 getwd()
 # load the irace results
-load(file="./my.julia/irace_test/code/irace.Rdata")
+iraceResults <- read_logfile("./my.julia/irace_test/code/irace.Rdata")
 
 # show the irace results
 View(iraceResults)
